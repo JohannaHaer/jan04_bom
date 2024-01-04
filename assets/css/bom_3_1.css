@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#backscene {
+    height: 100vh;
+    background: url("../img/background.jpeg") no-repeat center/cover;
+    position: relative;
+}
+
+#cat {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: none;
+}
+
+div {
+    padding: 2rem;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: rgb(30, 37, 102);
+    color: white;
+    font-weight: 700;
+    width: 165px;
+    height: 37px;
+    font-size: 12px;
+    line-height: 32.5px;
+}
